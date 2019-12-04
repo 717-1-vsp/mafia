@@ -1,0 +1,111 @@
+body {
+  background: radial-gradient(rgb(14, 6, 6), rgb(32, 2, 2));
+  height: 100vh;
+  color: white;
+  font-family: 'Rubik Mono One', sans-serif;
+  min-width: 1000px;
+}
+
+.play-card {
+  width: 18vh;
+  margin: 1vh; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+
+.load {
+  position: absolute;
+  height: 100%;
+  width: 100%;  
+  background: radial-gradient(rgb(14, 6, 6), rgb(32, 2, 2));
+  z-index: 1000;
+}
+
+.card {
+  background-color: rgba(49, 49, 49, 0.2);
+}
+
+.btn-start {
+  margin-top: 40vh;
+  font-size: 10vh;
+  color: white;
+}
+
+.card-play {
+  background-color: rgba(0,0,0,0);
+  cursor: pointer;
+}
+.btn-start:hover {
+  margin-top: 40vh;
+  font-size: 10vh;
+  color: rgb(85, 11, 11);
+  cursor: pointer;
+}
+
+.btn-next {
+  color: black;
+  background-color: rgb(216, 216, 216);
+}
+
+.btn-next:hover {
+  color: white;
+  background-color: rgb(85, 11, 11);
+}
+
+.btn-rules {
+  font-size: 3vh;
+  color: white;
+  background-color: rgb(73, 9, 9);
+}
+
+.btn-rules:hover {
+  color: white;
+  background-color: rgb(85, 11, 11);
+}
+
+.modal-start {
+  background-color: rgb(73, 9, 9);
+  color: white;
+}
+
+.modal-footer, .modal-header {
+  background-color: rgb(41, 5, 5);
+  color: white;
+}
+
+a, a:active {
+  text-decoration: none;
+  color: rgb(204, 31, 31);
+}
+a:hover {  
+  text-decoration: none;
+  color: rgb(131, 11, 11);
+}
+
+
+
+a.active.focus,
+a.active:focus,
+a.focus,
+a:active.focus,
+a:active:focus,
+a:focus,
+button.active.focus,
+button.active:focus,
+button.focus,
+button:active.focus,
+button:active:focus,
+button:focus,
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+outline: 0!important;
+outline-color: transparent!important;
+outline-width: 0!important;
+outline-style: none!important;
+box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
+}
